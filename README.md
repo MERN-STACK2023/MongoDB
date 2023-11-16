@@ -1,4 +1,5 @@
 # MERN - M: MongoDB
+- Muti-cloud document database service(document oriented database)
 - Performance: the speed at which a collection is queried is very fast without 
 - Flexibility: very easy to make structural changes without wreaking havac, it like adding a new property to a object
 - Scalability: can support large databases with high request rates at a very low latency
@@ -42,7 +43,7 @@
     - values can be string, number boolean, an array or a nested JSON document
     - uses UTF-* String encoding so, both humans and machines can easily read it
     - popular format for storing and exchanging data between software systems
-    
+
 ```
 {
 	"id": "0001",
