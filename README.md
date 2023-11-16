@@ -26,7 +26,7 @@
     - you should use if you want a flexible schema for the data that is in terms of shape or size or if it needs to be open to change in the future
     - designed from the ground up from the cloud, so they are good for horizontal scaling because lots of servers can be spun up to handle increase load
 
-- [Learn More]
+- [Learn More](./SQLvsNonSQL.md)
 
 
 - **MongoDB is a non relational database**
@@ -37,6 +37,12 @@
     - document are created using BSON(Binary JSON)
         - so documents are BSON documents
 - **JSON(JavaScript Object Notation)**
+    - text based
+    - data is stored in `"key": "value"` pairs
+    - values can be string, number boolean, an array or a nested JSON document
+    - uses UTF-* String encoding so, both humans and machines can easily read it
+    - popular format for storing and exchanging data between software systems
+    
 ```
 {
 	"id": "0001",
@@ -74,11 +80,9 @@
 		]
 }
 ```
-    - text based
-    - data is stored in `"key": "value"` pairs
-    - values can be string, number boolean, an array or a nested JSON document
-    - uses UTF-* String encoding so, both humans and machines can easily read it
-    - popular format for storing and exchanging data between software systems
+
+
+
 - **BSON(Binary JavaScript Object Notation)**
     - Binary JSON is a superset of JSON
     - uses Binary encoding so, only machines can read it

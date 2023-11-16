@@ -14,7 +14,7 @@ Feature rich query language
 - NoSQL stands for not only SQL
     - means a non relational database is a non-tabular database
     - stores data differently than a relational tables
-- Types of Non Relational databases:
+- **Types of Non Relational databases:**
     - **Documents:** such as MongoDB, CouchDB
     - **Key-Value:** such as DynamoDB, Redis
     - **Wide-Column store:** such as HBase, Cassandra
