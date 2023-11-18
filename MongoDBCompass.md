@@ -12,3 +12,4 @@
 5. Go to MongoDB Comapss
     - in New Connection paste your connection string and replace the username and password with your credentials
         - if you do not see the new connection page click Connect ---> New Conection from menu
+        
