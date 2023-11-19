@@ -1,0 +1,27 @@
+# Common MongoDB Shell Commands
+- `show dbs` 
+    - Print a list of all databases on the server.
+- `use <dbname> `
+    - Switch current database to <dbname>. 
+- `db` 
+    - Displays the current database in use.
+- `show collections` 
+    - Prints the list of collections in the current database.
+- `db.createCollection()` 
+    - Creates a new collection
+- `db.collection.drop()` 
+    - Drops or removes the collection completely.
+- `db.collection.insertOne()` 
+    - Insert a new document into the collection.
+- `db.collection.insertMany()` 
+    - Insert multiple new documents into the collection.
+- `db.collection.updateOne()` 
+    - Update a single existing document in the collection.
+- `db.collection.updateMany()` 
+    - Update multiple existing documents in the collection.
+- `db.collection.deleteOne()` 
+    - Delete a single document from the collection.
+- `db.collection.deleteMany()` 
+    - Delete documents from the collection.
+- `db.collection.createIndex()` 
+    - Create a new index on the collection if the index does not exist; otherwise, the operation has no effect.
