@@ -35,3 +35,17 @@
         - the `findOne()` method also
     - to print a formatted result use the `pretty()` method(can only be used on the `find()` method)
         - `db.collectionName.find({name: "Rita"}, {_id: false, gender: 0}).pretty()`
+
+## Updating Documents
+- `updateOne()`: updates a document that match the filter
+    - updates a single document
+    - if more than one document matches the filter it will only update the first matching document
+    - `updateOne({name: "Rita"}, {$set: {age: 25, city: "Las Vegas"}})`: the document that has the name Rita, age and city fields will be updated with the specified values
+- `updateMany()`: updates all the documents that match the filter
+    - `updateMany({name: "Rita"}, {$set: {age: 25, city: "Las Vegas"}})`: all the documents that have the name Rita, age and city fields will be updated with the specified values
+- if you try to update a field that does not exist in a document, it will add the field to that document
+
+
+
+
+({filter}, {})
