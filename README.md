@@ -34,7 +34,7 @@
 - a collection is made up of **one or more documents**
 - each document is made up of **one or more fields**
     - you can think of fields as columns(of a relational Database)
-- document are created using BSON(Binary JSON)
+- document are created and stored using BSON(Binary JSON)
     - so documents are BSON documents
     - we dont need to learn BSON because as developers we still use JSON format and MongoDb takes care of converting it to BSON and saving it to the disk
 - [Learn More About JSON and BSON(Binary JSON)](./MongoDBBasics/JSONvsBSON.md)

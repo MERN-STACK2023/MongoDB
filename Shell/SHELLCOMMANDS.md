@@ -25,7 +25,7 @@
             - a capped collection is a fixed size collection that automatically overwrites its oldest entries when it reaches it maximum
                 - when set to true we need to specify a size in bytes `{capped: true, autoIndexId: true, size: 6142567, max: 100}`, max is the maximum number of collections
             - autoIndexId default is false, if set to true it will create an index on the `_id`field
-    - `db.collectionName.insertOne({key: 'value', key: 'value', key: 'value'})` creates a collection(implicitly) and inserts a document into it
+    - `db.collectionName.insertOne({key: value, key: value, key: value})` creates a collection(implicitly) and inserts a document into it
 - **Delete Collection:**
     - `db.collection.drop()`, drops or removes the collection completely
 - **Get all Document in a Collection:**
