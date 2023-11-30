@@ -5,13 +5,8 @@ To work with MongoDB Server we need a Client called MongoDB Shell
         - issues the same commands to the database server as MongoDB Compass
         - [Click here](https://www.youtube.com/watch?v=7jH__3ieGS0) to be taken to a video that will show you how to do this. Start at the 4:30 mark
 
-
-
-
-
-https://www.mongodb.com/ --> Products --> Community Edition --> MongoDB Community Server Download
-
 ## 1. MongoDB Windows Installation
+https://www.mongodb.com/ --> Products --> Community Edition --> MongoDB Community Server Download
 - Select and install the msi package
 - ![Setup 1](./images/setup1.png)
 - ![Setup 2](./images/setup2.png)
@@ -28,6 +23,7 @@ https://www.mongodb.com/ --> Products --> Community Edition --> MongoDB Communit
 - it ask for a connection string and if no string is given then it will use the default
 - hit enter and you should be connected 
 
+[Common Database Shell Commands](./SHELLCOMMANDS.md)
 
 
 ![]()
