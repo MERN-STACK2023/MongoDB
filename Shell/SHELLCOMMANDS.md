@@ -34,20 +34,14 @@
 
 ________________________________________________________________   
 - `db.createCollection()` 
-    - Creates a new collection
-- `db.collection.drop()` 
-    - Drops or removes the collection completely
-- `db.collection.insertOne()` 
-    - Insert a new document into the collection
-- `db.collection.insertMany()` 
-    - Insert multiple new documents into the collection
-- `db.collection.updateOne()` 
-    - Update a single existing document in the collection
-- `db.collection.updateMany()` 
-    - Update multiple existing documents in the collection
-- `db.collection.deleteOne()` 
-    - Delete a single document from the collection
-- `db.collection.deleteMany()` 
-    - Delete documents from the collection
 - `db.collection.createIndex()` 
     - Create a new index on the collection if the index does not exist; otherwise, the operation has no effect
+
+## Date
+- ISODate: date
+	- `new Date()`: current date and time
+- Timestamp: used mostly internally, but you can use it
+	- `new Timestamp()`: current time
+
+- `db.stats()`: utility operator that give us the stats of a db
+	- gives info such as number of collections, total size, average object size etc.....

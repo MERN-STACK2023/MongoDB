@@ -2,6 +2,7 @@
 - a document is a json file with one or more objects
 - each object is a document/row of data
 - each document has one or more key value pairs/fields
+- a document maximum size is 16 mega bytes
 - documents are created using BSON(Binary JSON)
     - MongoDB converts the JSON data into BSON then stores it
     - we dont need to learn BSON because as developers we still use JSON format and MongoDB takes care of converting it to BSON and saving it to the disk
