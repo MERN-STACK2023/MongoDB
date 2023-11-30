@@ -9,8 +9,14 @@
 ## Document Ids
 - when adding a documment, if you do not specify a `_id` field MongoDB will create one and assign it with an `ObjectID`
     - `_id`
-- create `_id` field explicity `db.collectionName.insertOne({-id: 'unique-id-1', name: 'Rita', age: 33})`
+- create `_id` field explicity `db.collectionName.insertOne({-id: '1', name: 'Rita', age: 33})`
 - you cannot insert a document with an id that already exist
+- **Get all Document in a Collection:**
+    - `db.collectionName.find()`, will return a cursor, cursor points to batches of documents
+    - this method does not return a list, it returns a pointer to a list of documents called **Cursor**
+    - **Cursor** is an object that pointer to a batch of document
+    - does not return all document at once but document are returned in batches, called cursor
+    - in the Shell we can use `it` to request the next batch
 
 ## Inserting Documents
 - `insertOne({})`: insert one document in a collection
@@ -35,16 +41,33 @@
         - the `findOne()` method also
     - to print a formatted result use the `pretty()` method(can only be used on the `find()` method)
         - `db.collectionName.find({name: "Rita"}, {_id: false, gender: 0}).pretty()`
+        - `pretty()` can be only used on a cursor and the find method returns a cursor
 
 ## Updating Documents
-- `updateOne()`: updates a document that match the filter
+- `db.collectionName.updateOne()`: updates a document that match the filter
     - updates a single document
     - if more than one document matches the filter it will only update the first matching document
-    - `updateOne({name: "Rita"}, {$set: {age: 25, city: "Las Vegas"}})`: the document that has the name Rita, age and city fields will be updated with the specified values
-- `updateMany()`: updates all the documents that match the filter
-    - `updateMany({name: "Rita"}, {$set: {age: 25, city: "Las Vegas"}})`: all the documents that have the name Rita, age and city fields will be updated with the specified values
+    - `db.collectionName.updateOne({name: "Rita"}, {$set: {age: 25, city: "Las Vegas"}})`: the document that has the name Rita, age and city fields will be updated with the specified values
+- `db.collectionName.updateMany()`: updates all the documents that match the filter
+    - `db.collectionName.updateMany({name: "Rita"}, {$set: {age: 25, city: "Las Vegas"}})`: all the documents that have the name Rita, age and city fields will be updated with the specified values
 - if you try to update a field that does not exist in a document, it will add the field to that document
 
+
+## Deleting Documents
+- `db.collectionName.deleteOne({})`: will delete the first document in a collection
+    - `db.collectionName.deleteOne({name: "Rita"})`: deletes first document where name is Rita
+- `db.collectionName.deleteMany({name: "Rita"})`: delete all documnets where name is Rita
+    - `db.collectionName.deleteMany({})`: will delete all documents from a collection
+- `db.collectionName.remove({name: "Rita"}, true)` this method is deprecated, will delete the first document that has the name Rita, the second argument true means you only want one document deleted
+    - `db.collectionName.remove({name: "Rita"}, false)` or `db.collectionName.remove({name: "Rita"})`: will delete all documents where name is Rita
+    - `db.collectionName.remove({})`: deletes all the documents from a collection
+
+## Cursor Methods
+- `db.collectionName.find()`, will return a cursor, cursor points to a batch of documents
+- in the Shell we can use `it` to request the next batch/cursor
+- if we are working with a programming languages such as PHP or Nodejs, we need to use the cursor methods for those languages
+    - `db.collectionName.find().toArray()` the find method returns a cursor and the toArray method request the next batch/cursor, therefore more documents will be returned
+    - `db.collectionName.find().foreach(function(customer), {print("customer name" + cust.name)})` the find method returns a cursor and the forEach will loop over each document and when it reaches the last document it will request for next batch/cursor
 
 
 
