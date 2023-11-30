@@ -1,4 +1,6 @@
 # Common MongoDB Shell Commands
+- `cls`
+    - clears the shell
 - `show dbs` 
     - Print a list of all databases on the server.
 - `use <dbname> `

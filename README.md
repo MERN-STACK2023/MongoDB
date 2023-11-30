@@ -10,6 +10,7 @@
     - duplicating and distributing the data where deemed mecessary in a no sql structure is allowed
  - individual records are called documents
     - documents have a key/value structure and look like json
+
 ## Non Relational Database(NoSQL) vs Relational Database(SQL)
 - **Relational Database**
     - is a collection of one or more tables
@@ -29,9 +30,9 @@
 
 ## MongoDB
 **MongoDB is a non relational database**
-- a database contains is made up of one or more collections
-- a collection is made up of one or more documents
-- each document is made up of one or more fields
+- a database contains is made up of **one or more collections**
+- a collection is made up of **one or more documents**
+- each document is made up of **one or more fields**
     - you can think of fields as columns(of a relational Database)
 - document are created using BSON(Binary JSON)
     - so documents are BSON documents
@@ -44,3 +45,20 @@
 - based on JavaScript
 - data is eay to quey and you almost never need to use joins or transactions
 - indexing is supported allowing you to retrieved documents fast
+
+-[MongoDB Shell](./Shell/README.md)
+-[MongoDB Compass](./Compass/README.md)
+-[JSON vs BSON](./MongoDBBasics/JSONvsBSON.md)
+-[SQL vs NoSQL](./MongoDBBasics/SQLvsNoSQL.md)
+-[Getting Started](./MongoDBBasics/GettingStarted.md)
+-[]()
+-[]()
+-[]()
+-[]()
+-[]()
+-[]()
+-[]()
+-[]()
+-[]()
+-[]()
+-[]()
