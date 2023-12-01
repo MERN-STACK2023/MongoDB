@@ -42,3 +42,21 @@ Feature rich query language
     - there is no need to turn off existing servers to add a new server to the pool, so no downtime
 
 ![Scaling](./images/scaling.png)
+
+
+
+## Non Relational Database(NoSQL) vs Relational Database(SQL)
+- **Relational Database**
+    - is a collection of one or more tables
+    - a table contains one or more rows, so it is a colection of rows
+    - a table row contains one or more columns
+    - relational database is the best choice if the data is predictable in terms of structure, size and frequency of access
+    - if relationship between entities are important then relation database are the best choice
+    - the normalization reduces the size of the data on disk by limiting duplicate data and anomalies
+- **Non Relational Database**
+    - does not have tables
+    - has collections and documents
+    - a collection is a collection of one or more  documents
+    - you can think of a collection as a table and documents as table rows
+    - you should use if you want a flexible schema for the data that is in terms of shape or size or if it needs to be open to change in the future
+    - designed from the ground up from the cloud, so they are good for horizontal scaling because lots of servers can be spun up to handle increase load

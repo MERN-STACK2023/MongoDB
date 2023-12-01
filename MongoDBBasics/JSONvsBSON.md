@@ -19,7 +19,7 @@
     - in the JSON file you can use the additional data types provided by BSON but you do not have to worry about the internal BSON format. MongoDB takes care of it
 
 ### Why BSON
-- **Additional Data Types** BSON supports all the data types that JSON supports plus, Integer, float, long, decimal128,date, raw binary
+- **[Additional Data Types](./DataTypes/README.md)** BSON supports all the data types that JSON supports plus, Integer, float, long, decimal128,date, raw binary
 	- JSON only support a limited number of basic data types(string, boolean, number, array)
 	- we can use BSON data types with our JSON objects, JSON does not understand it but BSON does, the `ObjectId()` is an example
 - **Faster** storing and fetch BSON data is faster and more efficient
