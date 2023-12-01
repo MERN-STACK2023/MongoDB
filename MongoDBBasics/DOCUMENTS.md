@@ -7,6 +7,7 @@
     - MongoDB converts the JSON data into BSON then stores it
     - we dont need to learn BSON because as developers we still use JSON format and MongoDB takes care of converting it to BSON and saving it to the disk
 - MongoDB is schemaless, we can have documents with different structures in the same collection
+
 ## Document Ids
 - when adding a documment, if you do not specify a `_id` field MongoDB will create one and assign it with an `ObjectID`
     - `_id`

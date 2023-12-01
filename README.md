@@ -46,6 +46,10 @@
 - data is eay to quey and you almost never need to use joins or transactions
 - indexing is supported allowing you to retrieved documents fast
 
+### Next Move To ➡ [Getting Started with MongoDB](./MongoDBBasics/GettingStarted.md)
+
+
+## Table Of Contents
 -[MongoDB Shell](./Shell/README.md)
 -[MongoDB Compass](./Compass/README.md)
 -[JSON vs BSON](./MongoDBBasics/JSONvsBSON.md)
