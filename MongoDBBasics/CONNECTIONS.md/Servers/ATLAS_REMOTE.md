@@ -32,5 +32,9 @@ __________________________________________
     - **[Connect Using MongoDB Compass:](./Compass.md)**
     - **[Connect with the MongoDB Shell:](./SHELL.md)**
         - [Click here](https://www.youtube.com/watch?v=7jH__3ieGS0) to be taken to a video that will show you how to do this. Start at the 4:30 mark
+        - [Click Here](https://www.youtube.com/watch?v=CJaQmZ8DafE&list=PL1BztTYDF-QPdTvgsjf8HOwO4ZVl_LhxS&index=63)      10:30 mark
 - **Connect to your application:** connect to an application that is built using any technology
     
+     - **Atlas/Remote Server:** paste your connection string 
+        - Add Credentials Manually: replace the username and password with your credentials
+        - Add Credentials using Advance Connection Options: Click Authentication and add your username and password in the specified fields

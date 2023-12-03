@@ -15,9 +15,11 @@ ___________________________________________________________________________
 5. Go to MongoDB Comapss
 - **New Connection**
     - if you do not see the new connection page click Connect ---> New Conection from menu
-    - **Atlas/Remote Server:** paste your connection string 
-        - Add Credentials Manually: replace the username and password with your credentials
-        - Add Credentials using Advance Connection Options: Click Authentication and add your username and password in the specified fields
+    - [Remote Server/Atlas Connection](./REMOTE.md)
+    - [Local Server Connection](./LOCAL.md)
+    
+   
         
-    - **Local Installation:** when you install mongodb sever and check the check box for install as service it created a servcie that runs in the background, so mongoDB uses this severice with the connection string `mongodb://localhost:27017`
+__________________________________________
+   - **Local Installation:** when you install mongodb sever and check the check box for install as service it created a servcie that runs in the background, so mongoDB uses this severice with the connection string `mongodb://localhost:27017`
         - if you do not have Mongodb installed as service you can open the command prompt and run `mongod` to start the process in the background and it will be able to identifyy the connection string `mongodb://localhost:27017`

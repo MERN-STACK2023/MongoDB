@@ -18,3 +18,7 @@ interface for querying and modifying database data
 - is default db, if no db is select then this is the db that will be used
 [Common Database Shell Commands](./SHELLCOMMANDS.md)
 
+________________________________
+
+   - **Local Installation:** when you install mongodb sever and check the check box for install as service it created a servcie that runs in the background, so mongoDB uses this severice with the connection string `mongodb://localhost:27017`
+        - if you do not have Mongodb installed as service you can open the command prompt and run `mongod` to start the process in the background and it will be able to identifyy the connection string `mongodb://localhost:27017`

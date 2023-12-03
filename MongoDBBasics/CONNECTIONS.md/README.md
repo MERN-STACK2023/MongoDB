@@ -9,4 +9,4 @@
 - the client is connecting to a network-accessible MongoDB instance running on a different computer
 - MongoDB Atlas: can be used to host your remote database
     - it is a database as a servcie provider
-- [How to use MongoDB Atlas](./REMOTE.md)
+- [How to use MongoDB Atlas](./ATLAS_REMOTE.md)
