@@ -1,0 +1,3 @@
+- **`$sort: {fieldToSortBy: value}`**
+- `{$sort: {price: 1}}`: sorts in asending order
+- `{$sort: {count: -1}}`: sorts in desending order
