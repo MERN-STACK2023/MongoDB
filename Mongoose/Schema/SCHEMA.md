@@ -1,7 +1,7 @@
 # Mongoose Schema
-
+- 
 # 1. Create a Schema
-- Create a schema `new mongoose.Schema({object literal})`
+- Create a schema `new mongoose.Schema({object literal}, {object of options})`
 - used to create documents
 ```
 const movieSchema = new mongoose.Schema({

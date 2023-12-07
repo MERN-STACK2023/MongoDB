@@ -20,3 +20,10 @@
 
     
 ### Next Move To ➡ [Create Schema](./SCHEMA.md)
+
+
+-[Mongoose Model/Schema](./SCHEMA.md)
+-[CRUD](./CRUD/CommonMethods.md)
+- [Virtual properties]()
+
+
