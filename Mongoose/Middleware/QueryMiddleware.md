@@ -1,4 +1,5 @@
 # [Query Middleware](https://mongoosejs.com/docs/middleware.html#types-of-middleware)
+- executes when you call `exec()`, `then()` or `await` on a Query object
 - `this` keyword refers to the query object
 - for a list of events that can be use go to the [Mongoose documentation](https://mongoosejs.com/docs/middleware.html#types-of-middleware)
 - when the query method is `find` it will return all the documents

@@ -12,3 +12,7 @@
     - we can use JS methods on the result but not mongoose query method
 
 - the `findById()` execute the `findOne()` under the hood
+- `Date.now()` returs the current date and time in milliseconds
+    - `{ releaseDate: { $lte: Date.now() } }`
+    - the find method will convert it to the appropiate format to do the comparsion: `2023-12-07T19:34:17.394+00:00`
+    - but `new Date()` constructor returns the current date and time like so `2023-12-07T19:34:17.394+00:00` automatically 
