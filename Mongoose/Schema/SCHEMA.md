@@ -1,5 +1,8 @@
 # Mongoose Schema
-- 
+- VS Code Extension: Mongo Snippets for Node-js
+    - `!mdbgum`: generates a userSchema
+
+    
 # 1. Create a Schema
 - Create a schema `new mongoose.Schema({object literal}, {object of options})`
 - used to create documents

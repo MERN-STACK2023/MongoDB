@@ -22,7 +22,8 @@ ______________________________________________________________________
     - we dont need to learn BSON because as developers we still use JSON format and MongoDb takes care of converting it to BSON and saving it to the disk
 - [Learn More About JSON and BSON(Binary JSON)](./MongoDBBasics/JSONvsBSON.md)
 - MongoDB has two types of connection [local](./MongoDBBasics/LOCALCONNECTION/README.md) and [remote](./MongoDBBasics/REMOTECONNECTION/README.md)
-
+- VS Code Extension: Mongo Snippets for Node-js
+    - `!mdbgum`: generates a userSchema
 
 ## MQL
 - MongoDB query Language
