@@ -10,7 +10,7 @@ ___________________________________________________________________________
 4. Click **I don't have MongoDB Compass installed**
     - select operation system
     - click Download Compass and complete installation
-    - once it is installed clikc the **I have MongoDB Compass installed**
+    - once it is installed click the **I have MongoDB Compass installed**
     - select the version that you have and copy the connection string
 5. Go to MongoDB Comapss
 - **New Connection**
