@@ -22,4 +22,10 @@
 - since virtual properties are not technically part of the database you cannot use them when querying data
     - `Movies.find({hours: 3})`, this will not work
 
+
+## Field attributes
+- `select: false`: field will not be returned
+
+
+
 - [Example Schema](https://github.com/MERN-STACK2023/Express-RestAPI/blob/main/RestfulAPI/Models/movieModel.js)
