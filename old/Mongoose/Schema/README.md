@@ -26,6 +26,14 @@
 ## Field attributes
 - `select: false`: field will not be returned
 
-
+## Save mutiple values
+``` 
+likes: [//when a user likes a blog, the user's ID will be added to likes
+        {
+            type: mongoose.Schema.Types.ObjectId,
+            ref: "User"
+        }
+    ],
+```
 
 - [Example Schema](https://github.com/MERN-STACK2023/Express-RestAPI/blob/main/RestfulAPI/Models/movieModel.js)
